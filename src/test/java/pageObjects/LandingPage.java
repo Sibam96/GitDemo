@@ -23,6 +23,7 @@ public class LandingPage {
 	{
 		
 		driver.findElement(Search).sendKeys(name);
+		System.out.println("Landing page");
 	}
 	
 	public void getSearchText()
