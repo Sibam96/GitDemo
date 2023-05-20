@@ -23,6 +23,7 @@ public class CheckOutPage {
 		
 		driver.findElement(cartBag).click();
 		driver.findElement(checkOutButton).click();
+		System.out.println("PostJira2");
 	}
     public Boolean VerifyPromoBtn()
     {
