@@ -24,6 +24,8 @@ public class LandingPage {
 		
 		driver.findElement(Search).sendKeys(name);
 		System.out.println("Landing page");
+		System.out.println("Dev Branch 1");
+		System.out.println("Dev Branch 2");
 	}
 	
 	public void getSearchText()
@@ -55,6 +57,10 @@ public class LandingPage {
 	public void  selectTopDealsPage()
 	{
 		driver.findElement(topDeals).click();
+	}
+	public void getSearchText1()
+	{
+		driver.findElement(Search).getText();
 	}
 
 	public String getTitleLandingPage()
