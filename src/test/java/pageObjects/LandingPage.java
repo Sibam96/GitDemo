@@ -62,6 +62,11 @@ public class LandingPage {
 	{
 		driver.findElement(Search).getText();
 	}
+	
+	public void getSearchText2()
+	{
+		driver.findElement(Search).getText();
+	}
 
 	public String getTitleLandingPage()
 	{
